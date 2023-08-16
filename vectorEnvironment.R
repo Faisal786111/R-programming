@@ -259,3 +259,25 @@ save.image(file = "demo.RData")
 
 rm(list=ls())
 load("~/demo.RData")
+
+#saveRDS() function : it creates the .Rds file you can
+#read using readRDS() function
+
+
+a <- 10
+b <- 20
+
+saveRDS(c(a,b),file="demo1")
+rm(a,b)
+readRDS("~/demo1.Rds")
+book <-readRDS("~/demo1") #it work as load() function
+book
+
+#working directory in 
+getwd() #it returns current working directory path
+setwd(dir = "D:/study material/5TH SEM NOTES/DAR/RScripts")
+#to set path of dir use forward slash(/) within double qoutes 
+
+getwd()
+
+
