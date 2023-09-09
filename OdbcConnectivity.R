@@ -80,6 +80,6 @@
   
   #update 
   sqlQuery(conn, "UPDATE bookdata1 SET bookname = 'spring' WHERE bookedition = '10'")
-  
+  #close connection
   odbcClose(conn)
   
