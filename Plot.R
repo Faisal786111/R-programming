@@ -98,3 +98,17 @@ dev.off()
 pdf("D:/study material/5TH SEM NOTES/DAR/RScripts/Images/temp22.pdf")
 plot(month,temp22,main="2021 Temperature",xlab="months",ylab="temperature",lwd=3,lty=1,col="cyan",cex=2,type="b")
 dev.off()
+
+#Plot is a generic function used to create graph for different types of input objects
+classA <- list(rno = 1:5,name=c("Faisal","Harsha","Abbas","Faizan","Amjad"),city=c("M","M","P","D","K"),marks=c(89,87,67,85,80))
+classA
+
+classB <- data.frame(rno= 1:5,name=c("Sujal","Shreeya","Aditya","Rudra","Hina"),city=c("M","M","P","D","K"),marks=c(78,71,69,76,78))
+classB
+
+#create a plot graph for class A & B
+png("D:/study material/5TH SEM NOTES/DAR/RScripts/Images/classAB.png")
+plot(classA$rno,classA$marks,main="Class A vs B",type="b",col="red",lwd=3,lty=1,cex=2,pch=2,xlab="rno",ylab="marks")
+points(classB$rno,classB$marks,type="b",col="blue",cex=2,lwd=3,pch=2,lty=1)
+legend(x="topright",title="Class",legend=c("class A","class B"),fill=c("red","cyan"))
+dev.off()
