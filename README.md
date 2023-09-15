@@ -6,10 +6,9 @@
 </div>
 
 
-<h3>save as png </h3>
-
+<h3>save as png with legend </h3>
 <p align="center">
-  <img src="https://github.com/Faisal786111/R-programming/assets/124188437/38bf5e45-ef9e-433b-b323-5ac0fdf7c559" alt="temp21">
+  <img src="https://github.com/Faisal786111/R-programming/assets/124188437/40ed49bf-e50f-4ce9-a454-6afb85736c8c" alt="temp20">
 </p>
 
 
