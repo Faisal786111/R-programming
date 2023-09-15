@@ -62,7 +62,8 @@ length(temp22)
 
 plot(month,temp20,type="b",main="2020 vs 2021 vs 2022 Temperatures",col="green",lwd=5,cex=2,lty=1,xlab="months",ylab="termperature")
 lines(month,temp21,type="b",col="red",cex=2,lty=1,lwd=3)
-points(month,temp22,type="b",col="blue",cex=2,lty=1,lwd=4,)
+points(month,temp22,type="b",col="blue",cex=2,lty=1,lwd=4)
+legend(x="topright",title="years",legend=c("2020","2021","2022"),fill = c("green","red","blue"))
 
 #Save file using commands :
 
@@ -75,13 +76,17 @@ dev.off()
 
 #2. save as png image : use png()
 
-png(file="D:/study material/5TH SEM NOTES/DAR/RScripts/Images/temp21.png",width=6,height=4,units="in",res=100)
-plot(month,temp21,type="b",xlab="months",ylab="temeprature",main="2021 Temperature",lwd=3,lty=1,cex=2,col="cyan")
+png(file="D:/study material/5TH SEM NOTES/DAR/RScripts/Images/temp20.png",width=500,height=500,units="px",res=100)
+plot(month,temp20,type="b",xlab="months",ylab="temeprature",main="2020 vs 2021 Temperature",lwd=3,lty=1,cex=2,col="cyan")
+points(month,temp21,type="b",col="red",lwd=3,cex=2,lty=1)
+legend(x="topright",title = "years",legend=c("2020","2021"),fill = c("cyan","red"))
 dev.off()
 
 #3. save as svg image : use svg()
 svg("D:/study material/5TH SEM NOTES/DAR/RScripts/Images/temp20.svg")
-plot(month,temp20,type="b",xlab="months",ylab="temperatures",main="2020 Temprature",cex=2,lwd=3,col="cyan",lty=1)
+plot(month,temp20,type="b",xlab="months",ylab="temperatures",main="2020 vs 2021 Temprature",cex=2,lwd=3,col="cyan",lty=1)
+lines(month,temp21,type="b",col="red",lwd=3,cex=2)
+legend(x="topright",title="years",legend = c("2020","2021"),fill=c("cyan","red"))
 dev.off()
 
 #4. save as bmp image : use bmp()
