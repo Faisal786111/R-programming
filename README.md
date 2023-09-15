@@ -26,4 +26,18 @@
 
 [temp22.pdf](https://github.com/Faisal786111/R-programming/files/12615556/temp22.pdf)
 
+<h1 align="center">Pie Chart </h1>  <br/>
+<h3>Book Survey </h3>
+<div align="center">
+  <img width="500" alt="Book survey" src="https://github.com/Faisal786111/R-programming/assets/124188437/fc36b792-f0a7-4b03-bb7d-04b3687ef9db">
+</div>
 
+<h3>Marks Survey </h3>
+<div align ="center">
+  <img width="500" alt="Marks Survey" src="https://github.com/Faisal786111/R-programming/assets/124188437/8459428b-e159-4374-905f-d6544ef1d1f5">
+</div>
+
+<h3>3D Pie Chart</h3>
+<div align = "center">
+  <img width="383" alt="image" src="https://github.com/Faisal786111/R-programming/assets/124188437/6ce333d2-95de-4902-b5d9-30e93e52831a">
+</div>
