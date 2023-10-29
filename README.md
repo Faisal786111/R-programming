@@ -41,3 +41,17 @@
 <div align = "center">
   <img width="383" alt="image" src="https://github.com/Faisal786111/R-programming/assets/124188437/6ce333d2-95de-4902-b5d9-30e93e52831a">
 </div>
+
+<h1 align="center">histogram </h1>  <br/>
+<div align = "center">
+  <img width="383" alt="image" src="https://github.com/Faisal786111/R-programming/assets/124188437/15ec46bd-3365-4d88-a94d-ae172c8a1cee">
+</div>
+
+<h1 align="center">Box plot  </h1>  <br/>
+<div align = "center">
+  <img width="383" alt="image" src="https://github.com/Faisal786111/R-programming/assets/124188437/6541d8de-f24a-4b1f-8946-aa6174496710">
+</div>
+<h1 align="center">Box plot with formula </h1>  <br/>
+<div align = "center">
+  <img width="383" alt="image" src="https://github.com/Faisal786111/R-programming/assets/124188437/0497eb43-689f-4727-8a8a-ba8faec94d71">
+</div>
