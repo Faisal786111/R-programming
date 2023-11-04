@@ -173,6 +173,25 @@ result1()
 cat("Result 1:", result1(), "\n")
 cat("Result 2:", result2(), "\n")
 
+# Function for cacluator (using switch case)
+                   
+calculator <- function(){
+  no1 <- as.numeric(readline("Enter no :"))
+  no2 <- as.numeric(readline("Enter no :"))
+  
+  choice <- as.numeric(readline("Enter your choice :  1.add , 2.sub , 3.div , 4.mul"))
+  
+  switch(choice , 
+         "add" = print(no1 +no2),
+         "sub" = print(no1 -no2),
+         "div" = print(no1/ no2),
+         "mul" = print(no1 * no2)
+  )
+  
+}
+
+calculator()
+
 
 
 
