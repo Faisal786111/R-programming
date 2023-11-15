@@ -1,9 +1,9 @@
 #Functions in r :
-#Function is a block code which runs only when it called.
+#Function is a block code that runs only when it is called.
 #You can pass data, known as parameters, into a function.
-#function keyword is used to create function.
-#1. user defined functions
-#2. built-in functions
+#function keyword is used to create a function.
+#1. user-defined functions
+#2. Built-in functions
 
 #syntax : 
 
@@ -195,7 +195,22 @@ calculator <- function(){
 
 calculator()
 
+#Lazy evaluation Function  : 
+#If your function contains multiple parameters if one parameter is not there it will execute without errors.
+#Perform statements written in the function.
 
+example : 
+print_function = function(a , b ){
+  print(a)
+  print(b)
+}
+
+print_function(10 )
+
+#output : 
+#[1] 10
+#Error in h(simpleError(msg, call)) : 
+#  error in evaluating the argument 'x' in selecting a method for function 'print': argument "b" is missing, with no default
 
 
 
