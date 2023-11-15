@@ -1,4 +1,7 @@
 #Functions in r :
+#Function is a block code which runs only when it called.
+#You can pass data, known as parameters, into a function.
+#function keyword is used to create function.
 #1. user defined functions
 #2. built-in functions
 
